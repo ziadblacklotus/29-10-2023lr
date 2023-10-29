@@ -9,6 +9,23 @@ html, body {
   height: 100%;
 }
 
+.intro {
+  position: relative;
+  background-color:white;
+}
+
+.text-format {
+  font-family: Arial, sans-serif; /* Choisir une police de caractères */
+  font-size: 16px; /* Taille de la police */
+  /* font-weight: bold; Gras (bold), normal, etc. */
+  color: #333; /* Couleur du texte (utilisez des codes hexadécimaux, des noms de couleurs, ou des valeurs RGB) */
+  text-align: center; /* Alignement du texte (left, right, center, justify) */
+ /* text-decoration: underline; Souligné (underline), barré (line-through), ou aucun (none) */
+  text-transform: capitalize; /* Transformation du texte (uppercase, lowercase, capitalize) */
+  letter-spacing: 1px; /* Espacement entre les lettres */
+  line-height: 1.5; /* Hauteur de ligne (interligne) */
+}
+
 .card {
   position: relative;
   width: 300px;
